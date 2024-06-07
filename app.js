@@ -61,13 +61,13 @@ calculateResult = function() {
     let result;
 
     if (operator === "+") {
-        result = user1 + user2;
+        result = (Number(user1)) + (Number(user2));
     } else if(operator === "*") {
-      result = user1 * user2;
+      result = (Number(user1)) * (Number(user2));
     } else if(operator === "-") {
-      result = user1 - user2;
+      result = (Number(user1)) - (Number(user2));
     } else if(operator === "/") {
-      result = user1 / user2;
+      result = (Number(user1)) / (Number(user2));
       return;
     }
       
